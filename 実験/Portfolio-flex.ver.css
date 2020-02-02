@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*頭卍*/
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #ec715f
+}
+.head{
+	width: 1024px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.headlist{
+	display: flex;
+	flex-direction: row;
+}
+.header-logo{
+	height: 70px;
+}
+.headlist-item{
+	margin: 27px 30px;
+	font-size: 16px;
+	color: #fafafa;
+}
+
+/*主写卍*/
+.mainV{
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	padding: 200px 0;
+}
+.mainV-text{
+	margin: 0 auto;
+	text-align: center;
+}
+.mainV-text-1{
+	font-size: 64px;
+	color: #fafafa;
+	margin-bottom: 10px;
+	margin: 0 auto;
+}
+.mainV-text-2{
+	font-size: 20px;
+	color: #fafafa;
+	margin: 0 auto;
+}
+
+/*ホーリオ*/
+.portfolio{
+	padding: 85px;
+	width: 100%;
+	background-color: #eceff1;
+}
+.pf-box{
+	margin: 0 auto;
+	text-align: center;
+}
+.pf-title{
+	margin: 5px 0 0 0;
+	color: #000000;
+}
+.pf-border{
+	width: 70px;
+	height: 8px;
+	margin: 0 auto;
+	border-bottom: 3px;
+	border-style: solid;
+	border-color: #ec715f;
+}
+.pf-text{
+	margin: 30px 0 25px 0;
+	font-size: 16px
+	color: #000000
+}
+.pf-photobox{
+	width: 930px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.pf-photo{
+	width: 300px;
+	height: 250px;
+	margin: 5px;
